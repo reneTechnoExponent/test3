@@ -26,13 +26,5 @@ export default defineConfig({
         manualChunks: undefined
       }
     }
-  },
-  css: {
-    postcss: {
-      plugins: [
-        require('tailwindcss'),
-        require('autoprefixer'),
-      ],
-    },
-  },
+  }
 })
