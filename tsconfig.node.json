@@ -8,9 +8,10 @@
     "allowSyntheticDefaultImports": true,
     "allowJs": true,
     "strict": true,
+    "noEmit": true,
     "noUnusedLocals": false,
     "noUnusedParameters": false,
     "noFallthroughCasesInSwitch": true
   },
-  "include": ["vite.config.ts", "api/**/*.js"]
+  "include": ["vite.config.ts", "api/**/*.js", "src/lib/**/*.js"]
 }
